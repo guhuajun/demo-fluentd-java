@@ -1,0 +1,1 @@
+docker run  -it --rm  -p 24224:24224 -v d:/2018/playground/fluned-for-bond/fluentd-server/:/fluentd/etc/  -e FLUENTD_CONF=fluentd.conf    fluent/fluentd
